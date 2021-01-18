@@ -41,16 +41,16 @@ function updateFilters() {
     // 5. If a filter value was entered then add that filterId and value
     // to the filters list. Otherwise, clear that filter from the filters object.
    if (elementValue) {
-       [filterId] = elementValue;
+       filters[filterId] = elementValue;
    }
    else {
         delete filters[filterId];
    }
 
-  }
-    // 6. Call function to apply all filters and rebuild the table
-    filterTable(filters);
   
+    // 6. Call function to apply all filters and rebuild the table
+    filterTable();
+  }
   
   // 7. Use this function to filter the table when data is entered.
   function filterTable() {
