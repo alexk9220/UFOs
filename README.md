@@ -16,5 +16,5 @@ Shape specified
 
 ## Summary
 Our new website design definitely lets the users customize their search results and makes it easier for them to navigate the UFO data we have. While our filters can undoubtedly be useful to filter our dataset by state/city/country and date, the shape filter option seems unnecessary. Even though we can filter our data by shape, I can't see any analytical sense in doing that - there aren't too many shape options avaiable to begin with and it's also one of those additional parameters that can be ommitted.  
-On the other hand, we can also make our website a little better by adding duration as our search criteria. While exact values will probably be not so useful, we might have time increments instead - let's say up to 6 min, 6 to 12 min, over 12 min, etc. 
+On the other hand, we can also make our website a little better by adding duration as our search criterion. While exact values will probably be not so useful, we might have time increments instead - let's say up to 6 min, 6 to 12 min, over 12 min, etc. 
 I would aslo make our background a little darker - closer to black so that the white text that we have is in sharper contrast with the background that makes it more appealing aesthetically and easier to read.
